@@ -5,7 +5,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 5rem;
-    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: rgb(95, 56, 117);
 }
 .vplay{
     margin-left: 5rem;
@@ -32,3 +33,54 @@ h3{
     color: white;
     background-color: transparent;
 }
+img{
+    width: 91rem;
+    height: 50rem;
+    z-index: -1;
+}
+.btn-primary-custom {
+    align-items: flex-start;
+    border-radius: 10px;
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 0.8rem 2.4rem;
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));}
+
+    .btn-secondary-custom {
+        align-items: flex-start;
+        background-color: #ffffff29;
+        border-radius: 1rem;
+        display: flex;
+        font-size: 1.6rem;
+        font-weight: 500;
+        height: 4rem;
+        justify-content: center;
+        padding: 0.8rem 2.4rem;
+        
+        color: rgb(255 255 255 / var(--tw-text-opacity));
+    }
+    .gap-\[1\.6rem\] {
+        gap: 1.6rem;
+        z-index: -3;
+    }
+    .items-center {
+        align-items: center;
+        z-index: -2;
+    }
+    .flex {
+        display: flex;
+        z-index: -1;
+    }
+    .header__bottom[data-v-23c5676f] {
+        bottom: 0;
+        padding: 7.2rem 8rem;
+        position: absolute;
+        width: 100%;
+        z-index: 3;
+    }.btn-primary-custom
