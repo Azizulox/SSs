@@ -1,10 +1,16 @@
-
+body{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 60px 60px -120px inset, rgba(0, 0, 0, 0.3) 0px 180px 360px -180px inset;
+    background-color: black;
+}
 
 nav{
     display: flex;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
     height: 5rem;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     background-color: transparent;
 }
 .vplay{
@@ -32,3 +38,85 @@ h3{
     color: white;
     background-color: transparent;
 }
+img{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 60px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 180px 360px -180px inset;
+    width: 91rem;
+    height: 43rem;
+    z-index: -1;
+}
+.btn-primary-custom {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 10px;
+    height: 4rem;
+    justify-content: center;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 0.8rem 2.4rem;
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));}
+
+    .btn-secondary-custom {
+        display: flex;
+        
+        align-items: flex-start;
+        border-radius: 1rem;
+        font-size: 1.6rem;
+        font-weight: 500;
+        height: 4rem;
+        justify-content: center;
+        padding: 0.8rem 2.4rem;
+        
+        color: rgb(255 255 255 / var(--tw-text-opacity));
+        background-color: #ffffff29;
+    }
+    .gap-\[1\.6rem\] {
+        gap: 1.6rem;
+        z-index: -3;
+    }
+    .items-center {
+        align-items: center;
+        z-index: -2;
+    }
+    .flex {
+        display: flex;
+        z-index: -1;
+    }
+    .header__bottom[data-v-23c5676f] {
+        position: absolute;
+        margin-top:  20rem;
+        bottom: 0;  
+        width: 100%;
+        z-index: 3;
+        background-color: transparent;
+    }
+    .card-img-top{
+        display: flex;
+        width: 20rem;
+        height: 10rem;
+    }
+    .card{
+        display: flex;
+        margin-right: 2rem;
+        padding-right: 2rem;
+        width: 100%;
+        height: 5rem;
+        /* background-color: red; */
+    }
+    #conteiner{
+        display: flex;
+        position: absolute;
+        margin-bottom: 10rem;
+        padding-right: 2rem;
+        width: 100%;
+        height: 5rem;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        width: 100%;
+        height: 10rem;
+        
+        background-color: ;
+    }
